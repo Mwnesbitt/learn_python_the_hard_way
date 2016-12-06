@@ -58,7 +58,7 @@ def convert(snippet, phrase):
 try:
   while True:
     snippets = list(PHRASES.keys()) #had to do some debugging here from python 2 to 3: http://blog.labix.org/2008/06/27/watch-out-for-listdictkeys-in-python-3
-    print(snippets)
+    #print(snippets) #due to debugging the above
     random.shuffle(snippets)
     
     for snippet in snippets:
